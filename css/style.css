@@ -1,0 +1,526 @@
+@font-face {
+  font-family: TiemposText;
+  src: url(../font/TiemposText-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: TiemposHeadline;
+  src: url(../font/TiemposHeadline-Medium.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: AlrightSansLT;
+  /*src: url(../font/AlrightSans-Regular.otf);*/
+  src: url(../font/AlrightSans-Light.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: AlrightSansLT-Medium;
+  src: url(../font/AlrightSans-Regular.otf);
+  font-weight: bold;
+}
+
+.rs-Newsletter-tips-highlightstory {
+  width: 600px;
+  height: 2200px;
+  #background-color: #ffffff;
+  /*background-color: rgba(0, 188, 212, 0.11);*/
+  margin: 0 auto;
+}
+
+.top {
+  margin: 14px 42px 0 51px;
+  display: flex;
+}
+
+.top-right{
+  float: right;
+  width: 99px;
+  height: 13px;
+  margin: 0 13px 0 296px;
+}
+.rs-logo {
+  width: 141px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.View-in-your-browser {
+  width: 99px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  text-align: left;
+  color: #ec5447;
+}
+
+/* section 1 */
+
+.section-1 {
+  margin: 47px 0 0 0;
+  height: 196px;
+}
+
+.Summer-text-left {
+  margin-top: 15px;
+  position: absolute;
+}
+
+.Summer-Newsletter {
+  width: 509px;
+  height: 90px;
+  font-family: TiemposText;
+  font-size: 44px;
+  line-height: 1.02;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #0a273c;
+  margin-left: 49px;
+  margin-top: -15px;
+}
+
+.z {
+  width: 273px;
+  height: 34px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: left;
+  color: #85939e;
+  margin-left: 49px;
+  margin-top: 19px;
+}
+
+.NewsletterGraphicPlaceholder {
+  width: 222px;
+  height: 196px;
+  object-fit: contain;
+  margin-left: 355px;
+  /*border: 1px solid;*/
+}
+
+.Bitmap {
+  width: 509px;
+  height: 166px;
+  object-fit: contain;
+}
+
+/* Second Section */
+
+.Rectangle {
+  width: 600px;
+  height: 1548px;
+  background-color: #f7f8f9;
+}
+
+.Rectangle-3 {
+  width: 509px;
+  height: 477px;
+  background-color: #ffffff;
+  margin-left: 49px;
+}
+
+.Rectangle-img{
+  border-left: solid white 48px;
+  border-right: solid white 48px;
+  margin: 0 -48px 0 -48px;
+}
+
+.Rectangle-4 {
+  width: 64px;
+  height: 1px;
+  opacity: 0.47;
+  background-color: #85939e;
+  margin: 73px 0 0 38px;
+  position: absolute;
+}
+
+.Rectangle-2 {
+  margin: 0 42px 0 35px;
+  float: right;
+}
+
+.TRACTION {
+  width: 53px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #60cbe2;
+  float: left;
+  margin-top: 40px;
+}
+
+.Traction-Conference {
+  width: 208px;
+  height: 23px;
+  font-family: TiemposHeadline;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #0a273c;
+  margin-top: 69px;
+}
+
+.Hi-There-Were-stil {
+  width: 330px;
+  height: 164px;
+  opacity: 0.73;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #0a273c;
+  float: left;
+  margin-top: 13px;
+}
+
+.Hi-There-Were-stil .text-style-1 {
+  color: #ec5447;
+  font-style: normal;
+}
+
+.-Tips-for-Action {
+  width: 199px;
+  height: 32px;
+  font-family: TiemposText;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #0a273c;
+  margin-left: 200.5px;
+}
+
+.All-the-things-you-n {
+  width: 291px;
+  height: 18px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: center;
+  color: #0a273c;
+  margin-left: 155px;
+}
+
+/* Rectangles*/
+
+.Rectangle-5 {
+  width: 510px;
+  height: 136px;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  margin: 30px 45px 0 45px;
+}
+
+.growth-icon {
+  width: 57px;
+  height: 57px;
+  object-fit: contain;
+  position: absolute;
+  margin: 37px 0 42px 50px;
+}
+
+.Investing-for-brand {
+  width: 280px;
+  height: 20px;
+  font-family: AlrightSansLT;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #0a273c;
+  margin-left: 140px;
+}
+
+.Zapier-is-an-incredi {
+  width: 320px;
+  height: 32px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  text-align: left;
+  color: #85939e;
+  margin-left: 140px;
+}
+
+.read-more {
+  width: 61px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: left;
+  color: #60cbe2;
+  margin-left: 140px;
+}
+
+.Social-Media-Trends {
+  width: 280px;
+  height: 20px;
+  font-family: AlrightSansLT;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #0a273c;
+  margin-left: 140px;
+}
+
+/* Divider*/
+
+.Line-2 {
+  width: 598px;
+  /*height: 3px;*/
+  border: solid 1px #eceef0;
+  margin-top: 40px;
+}
+
+.Your-favourite-blog {
+  width: 302px;
+  height: 32px;
+  font-family: TiemposText;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #0a273c;
+  margin-left: 150px;
+}
+
+.Our-readers-have-fou {
+  width: 376px;
+  height: 18px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: center;
+  color: #0a273c;
+  margin-left:113px;
+}
+
+/* Rectangle - 2 pices*/
+
+.Rectangle-6 {
+  width: 242px;
+  height: 275px;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  position: absolute;
+  margin: 30px 30px 40px 43px
+}
+
+.text-container {
+  margin-left: 15px;
+  float: left;
+}
+
+.TRACTION-2 {
+  width: 53px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #60cbe2;
+  float: left;
+}
+
+.Takeaway-from-Tracti {
+  width: 212px;
+  height: 22px;
+  font-family: TiemposHeadline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: left;
+  color: #0a273c;
+  margin-top: 28px;
+}
+
+.We-learned-so-much-f {
+  width: 212px;
+  height: 90px;
+  opacity: 0.73;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: #0a273c;
+  margin-top: 10px
+}
+
+.Rectangle-7 {
+  width: 242px;
+  height: 275px;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  position: absolute;
+  margin: 30px 43px 40px 315px
+}
+
+.text-container {
+  margin-left: 15px;
+  float: left;
+}
+
+.Sales-Automation-Mad {
+  width: 212px;
+  height: 22px;
+  font-family: TiemposHeadline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: left;
+  color: #0a273c;
+  margin-top: 28px
+}
+
+/* Third Section*/
+
+.Rectangle-8 {
+  width: 600px;
+  height: 50px;
+  background-color: #ec5447;
+  position: absolute;
+}
+
+.We-now-do-CRO-let-u {
+  width: 444px;
+  height: 19px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin: 16px 78px 16px 78px;
+
+}
+
+.We-now-do-CRO-let-u .text-style-2 {
+  font-family: AlrightSansLT-Medium;
+  font-weight: 500;
+
+}
+
+/*Footer*/
+
+.rs-Newsletter-tips-highlightstory-1 {
+  margin-top: 79px;
+  display: inline-flex;
+}
+
+.Made-in-Canada {
+  width: 108px;
+  height: 18px;
+  opacity: 0.5;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: left;
+  color: #85939e;
+  margin-left: 45px;
+  position: absolute;
+
+}
+
+.Made-in-Canada p { margin-top: 0 }
+
+.Made-in-Canada .text-style-3 {
+  font-family: AlrightSansLT;
+}
+
+.canada {
+  width: 14px;
+  height: 13px;
+  object-fit: contain;
+  margin-left: 157px;
+  position: relative;
+}
+
+/* Social Media*/
+
+.linkedin-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 214px;
+}
+
+.twitter-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.facebook-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.instagram-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+/* Divider*/
+
+.Line-Copy-3 {
+  width: 600px;
+  /*height: 3px;*/
+  border: solid 1px #eceef0;
+  margin-top: 75px;
+  position: absolute;
+}
+
+.Unsubscribe {
+  width: 93px;
+  height: 16px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0a273c;
+  position: absolute;
+  margin: 113px 0 0 183px;
+}
+
+.Unsubscribe .text-style-3 {
+  letter-spacing: normal;
+}
+
+.View-in-browser {
+  width: 121px;
+  height: 16px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #0a273c;
+  margin: 113px 0 0 296px;
+  position: absolute;
+}
+
+.Red-Stam {
+  width: 315px;
+  height: 16px;
+  opacity: 0.5;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  text-align: left;
+  color: #85939e;
+  position: absolute;
+  margin: 143px 0 0 144px;
+}
+
+.Icon {
+  width: 31.3px;
+  height: 35px;
+  position: absolute;
+  margin:195px 284px 71px 284px
+}

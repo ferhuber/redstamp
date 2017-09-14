@@ -425,21 +425,25 @@
   text-align: left;
   color: #85939e;
   margin-left: 45px;
-  position: absolute;
+  position: relative;
 
 }
 
-.Made-in-Canada p { margin-top: 0 }
+.Made-in-Canada p {
+  margin-top: 0;
+  width: 108px;
+}
 
 .Made-in-Canada .text-style-3 {
-  font-family: AlrightSansLT;
+  font-family: AlrightSansLT-Medium;
+  font-weight: bold;
 }
 
 .canada {
   width: 14px;
   height: 13px;
   object-fit: contain;
-  margin-left: 157px;
+  margin-left: 1px;
   position: relative;
 }
 

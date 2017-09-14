@@ -405,8 +405,13 @@
 /*Footer*/
 
 .rs-Newsletter-tips-highlightstory-1 {
-  width: 600px;
+  /*width: 600px;*/
   margin-top: 79px;
+
+}
+
+.social-media-icons {
+  width: 600px;
   display: inline-flex;
   position: absolute;
 }

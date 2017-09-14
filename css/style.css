@@ -106,26 +106,30 @@
   object-fit: contain;
 }
 
+.Rectangle-img{
+  /*border-left: solid white 48px;
+  border-right: solid white 48px;
+  margin: 0 -48px 0 -48px;*/
+  margin-left: 45px;
+}
+
 /* Second Section */
 
 .Rectangle {
   width: 600px;
   height: 1548px;
   background-color: #f7f8f9;
+  margin-top: 171px;
 }
 
 .Rectangle-3 {
   width: 509px;
   height: 477px;
   background-color: #ffffff;
-  margin-left: 49px;
+  margin-left: 45px;
 }
 
-.Rectangle-img{
-  border-left: solid white 48px;
-  border-right: solid white 48px;
-  margin: 0 -48px 0 -48px;
-}
+
 
 .Rectangle-4 {
   width: 64px;

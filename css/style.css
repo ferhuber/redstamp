@@ -523,20 +523,49 @@
 
 
 @media (min-width:320px) and (max-width:479px) {
-.Rectangle-6, .Rectangle-7 { height: 25vh }
-}
+  .rs-Newsletter-tips-highlightstory { width: 98%}
+  .Rectangle-6 {
+    height: 25vh;
+    width: 98%;
+    margin: 0 1% 0 1%;
+    position: relative;
+  }
+
+  .Rectangle-7 {
+    height: 25vh;
+    width: 98%;
+    margin: 0 1% 0 1%;
+    margin-top: 5%;
+  }
+  .Rectangle-3 { height: 35vh }
+  }
 
 @media (min-width:480px) and (max-width:767px) {
-.Rectangle-6, .Rectangle-7 { height: 25vh }
+.rs-Newsletter-tips-highlightstory { width: 90% }
+.Rectangle-6 {
+  height: 25vh;
+  width: 98%;
+  margin: 0 1% 0 1%;
+  position: relative;
+}
+
+.Rectangle-7 {
+  height: 25vh;
+  width: 98%;
+  margin: 0 1% 0 1%;
+  margin-top: 5%;
+}
 .Rectangle-3 { height: 35vh }
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-.Rectangle-6, .Rectangle-7 { height: 30vh }
+  .rs-Newsletter-tips-highlightstory { width: 70% }
+.Rectangle-6, .Rectangle-7 { height: 32vh }
 .Rectangle-3 { height: 38vh }
 }
 
 @media (min-width:1025px) and (max-width:1279px) {
+  .rs-Newsletter-tips-highlightstory { width: 60% }
   .Rectangle-6, .Rectangle-7 { height: 35vh }
   .Rectangle-3 { height: 40vh }
 }

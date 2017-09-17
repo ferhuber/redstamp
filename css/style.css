@@ -107,6 +107,7 @@
 .Rectangle-img {
   margin: 10% 8% 0 8%;
   position: relative;
+  width: 80.75%;
 }
 
 /* Second Section */
@@ -522,6 +523,8 @@
   .rs-logo            { width: 50% }
   .Made-in-Canada     { margin-top: 7% }
   .social-media-icons { margin-top: 11% }
+  .Rectangle          { margin-top: -0.75% }
+  .Rectangle-img      { width: 86.5% }
 }
 
 @media (min-width:480px) and (max-width:767px) {
@@ -532,4 +535,5 @@
 }
 @media (min-width:768px) and (max-width:1024px) {
   .Made-in-Canada { margin-top: 1.75% }
+  .Rectangle-img  { width: 84.75% }
 }

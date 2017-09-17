@@ -27,21 +27,23 @@
 }
 
 .top {
-  display: flex;
-  margin: 4% 0% 0 4%;
+  display: inline-flex;
+  margin: 4% 0% 0 10%;
+  width: 100%;
 }
 
 .top-right {
-  float: right;
-  margin: 0% 0 0 52%;
+  margin: 0% 0 0 40%;
+  width: 20%;
   }
+
 .top-right a {
   text-decoration: none;
 }
 
 .rs-logo {
   width: 100%;
-  height: 100%;
+  position: relative;
 }
 
 .View-in-your-browser {
@@ -110,19 +112,17 @@
 /* Second Section */
 
 .Rectangle {
-  width: 100%;
+  width: 50%;
   background-color: #f7f8f9;
-  position: relative;
+  position: absolute;
   margin-top: -0.25%;
-  border-bottom: 5vh solid #f7f8f9;
 }
 
 .Rectangle-3 {
-  width: 84%;
+  width: 83.2%;
   background-color: #ffffff;
   margin-left: 8%;
-  position: relative;
-  height: 42vh;
+  position: absolute;
 }
 
 
@@ -184,7 +184,8 @@
   font-weight: 500;
   text-align: center;
   color: #0a273c;
-  margin-bottom: -3%;
+  margin-top: 48%;
+  position: relative;
 }
 
 .All-the-things-you-n {
@@ -203,13 +204,12 @@
   width: 84%;
   background-color: #ffffff;
   border: solid 1px #eceef0;
-  margin: 2% 8% 0 8%;
+  margin: 5% 8% 0 8%;
   position: relative;
 }
 
 .growth-icon {
   width: 15%;
-
   position: absolute;
   margin: 3% 0 0% 7%;
 }
@@ -293,10 +293,9 @@
 
 .Rectangle-6 {
   width: 40%;
-  height: 43vh;
   background-color: #ffffff;
   border: solid 1px #eceef0;
-  margin: 8% 8% 8% 8%;
+  margin: 4% 8% 4% 8%;
   position: absolute;
 }
 
@@ -330,27 +329,23 @@
   line-height: 1.38;
   text-align: left;
   color: #0a273c;
-  margin-top: 28px;
   position: relative;
 }
 
 .We-learned-so-much-f {
-  width: 96%;
-  opacity: 0.73;
+  float: left;
+  position: relative;
+  width: 94%;
   font-family: AlrightSansLT;
   font-size: 1vw;
-  line-height: 1.5;
-  text-align: left;
-  color: #0a273c;
 }
 
 .Rectangle-7 {
-    width: 40%;
-    height: 43vh;
-    background-color: #ffffff;
-    border: solid 1px #eceef0;
-    position: relative;
-    margin: 11% 8% 0% 52%;
+  width: 40%;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  position: absolute;
+  margin: 4% 8% 4% 52%;
 }
 
 .rs-blog-automationmadeeasy_1024 {
@@ -365,17 +360,16 @@
   line-height: 1.38;
   text-align: left;
   color: #0a273c;
-  margin-top: 28px;
-  position: relat
+  position: relatative;
 }
-
-/* Third Section*/
 
 .Rectangle-8 {
   width: 100%;
   background-color: #ec5447;
   position: relative;
   padding: 0.5% 0% 0.5% 0%;
+  margin-top: 58%;
+  border-top: 1vh solid #f7f8f9;
 }
 
 .We-now-do-CRO-let-u {
@@ -397,7 +391,9 @@
 /*Footer*/
 
 .rs-Newsletter-tips-highlightstory-1 {
-  margin-top: 2%;
+  margin-top: 110%;
+  position: absolute;
+  width: 50%;
 }
 
 .social-media-icons {
@@ -416,6 +412,7 @@
   color: #85939e;
   margin-left: 8%;
   position: relative;
+  margin-top: 1%;
 }
 
 .Made-in-Canada p {
@@ -428,9 +425,9 @@
 }
 
 .canada {
-  margin-left: 1%;
   position: relative;
   width: 2%;
+  margin-top: 1%;
 }
 
 .img-canada{
@@ -466,14 +463,14 @@
 /* Divider*/
 
 .Line-Copy-3 {
-    width: 99%;
-    border: solid 0.1vh #eceef0;
-    margin-top: 5%;
-    position: relative;
+  width: 99%;
+  border: solid 0.1vh #eceef0;
+  margin-top: 5%;
+  position: relative;
 }
 
 .Unsubscribe {
-  width: 50%;
+  width: 30%;
   font-family: AlrightSansLT;
   font-size: 1vw;
   letter-spacing: 0.5px;
@@ -481,7 +478,7 @@
   text-transform: uppercase;
   color: #0a273c;
   position: absolute;
-  margin: 2% 4% 2% 16%;
+  margin: 4% 4% 2% 31.5%;
 }
 
 .Unsubscribe .text-style-3 {
@@ -489,14 +486,14 @@
 }
 
 .View-in-browser {
-  width: 50%;
+  width: 30%;
   font-family: AlrightSansLT;
   font-size: 1vw;
   letter-spacing: 0.5px;
   text-align: left;
   text-transform: uppercase;
   color: #0a273c;
-  margin: 2% 2% 2% 26%;
+  margin: 4% 10% 2% 54%;
   position: absolute;
 }
 
@@ -513,55 +510,26 @@
 
 .Icon {
   width: 3%;
-  /* height: 35px; */
   position: absolute;
-  /* margin: 195px 284px 71px 284px; */
-  margin-left: 23.5%;
+  margin-left: 50%;
   margin-bottom: 5%;
 }
 
-
+/* ----- end of code ----- */
 
 @media (min-width:320px) and (max-width:479px) {
-  .Rectangle-6 {
-    height: 25vh;
-    width: 98%;
-    margin: 0 1% 0 1%;
-    position: relative;
-  }
-
-  .Rectangle-7 {
-    height: 25vh;
-    width: 98%;
-    margin: 0 1% 0 1%;
-    margin-top: 5%;
-  }
-  .Rectangle-3 { height: 35vh }
-  }
+  .top-right          { margin: 0% 0 0 0%; width: 50% }
+  .rs-logo            { width: 50% }
+  .Made-in-Canada     { margin-top: 7% }
+  .social-media-icons { margin-top: 11% }
+}
 
 @media (min-width:480px) and (max-width:767px) {
-.Rectangle-6 {
-  height: 25vh;
-  width: 98%;
-  margin: 0 1% 0 1%;
-  position: relative;
+  .top-right     { margin: 0% 0 0 20% }
+  .Rectangle-img { width: 85.5% }
+  .Rectangle     { margin-top: -1% }
+  .canada        { margin-top: -1.25% }
 }
-
-.Rectangle-7 {
-  height: 25vh;
-  width: 98%;
-  margin: 0 1% 0 1%;
-  margin-top: 5%;
-}
-.Rectangle-3 { height: 35vh }
-}
-
 @media (min-width:768px) and (max-width:1024px) {
-.Rectangle-6, .Rectangle-7 { height: 32vh }
-.Rectangle-3 { height: 38vh }
-}
-
-@media (min-width:1025px) and (max-width:1279px) {
-  .Rectangle-6, .Rectangle-7 { height: 35vh }
-  .Rectangle-3 { height: 40vh }
+  .Made-in-Canada { margin-top: 1.75% }
 }

@@ -1,0 +1,293 @@
+@font-face {
+  font-family: TiemposText;
+  src: url(../font/TiemposText-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: TiemposHeadline;
+  src: url(../font/TiemposHeadline-Medium.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: AlrightSansLT;
+  src: url(../font/AlrightSans-Light.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: AlrightSansLT-Medium;
+  src: url(../font/AlrightSans-Regular.otf);
+  font-weight: bold;
+}
+
+
+.View-in-your-browser {
+  font-family: AlrightSansLT;
+      font-size: 1vw;
+      color: #ec5447;
+      text-decoration: none;
+      /*margin-left: 30%*/
+}
+
+.summer-newsletter {
+  font-family: TiemposText;
+      font-size: 3vw;
+      line-height: 1.02;
+      letter-spacing: -0.4px;
+      color: #0a273c;
+}
+
+.z {
+  font-family: AlrightSansLT;
+      font-size: 1.2vw;
+      line-height: 1.21;
+      text-align: left;
+      color: #85939e;
+}
+
+.Bitmap {
+  width: 100%
+}
+
+.table-gray {
+  background-color: #f7f8f9;
+}
+
+.table-red {
+  background-color: #ec5447;
+}
+.table-white {
+  background-color: white;
+}
+
+.table-border-gray {
+  border: solid 1px #eceef0;
+}
+
+.trace {
+  border-bottom: solid 0.2vh #85939e;
+  margin-top: -10%;
+  opacity: 0.47;
+}
+
+.TRACTION {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #60cbe2;
+}
+
+.Traction-Conference {
+    font-family: TiemposHeadline;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #0a273c;
+}
+
+.Hi-There-Were-stil .text-style-1 {
+    color: #ec5447;
+    font-style: normal;
+}
+
+.Hi-There-Were-stil {
+  opacity: 0.73;
+  font-family: AlrightSansLT;
+  font-size: 1.2vw;
+  line-height: 1.36;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #0a273c;
+}
+
+.Hi-There-Were-stil .text-style-1 {
+    color: #ec5447;
+    font-style: normal;
+}
+
+.-Tips-for-Action {
+  font-family: TiemposText;
+    font-size: 2.2vw;
+    font-weight: 500;
+    text-align: center;
+    color: #0a273c;
+}
+
+.All-the-things-you-n {
+  font-family: AlrightSansLT;
+    font-size: 1.2vw;
+    color: #0a273c;
+}
+
+th { height: 20px;}
+
+
+.growth-icon {margin: 10%}
+
+.Investing-for-brand {
+  font-family: AlrightSansLT;
+  font-size: 1.5vw;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #0a273c;
+}
+
+.Zapier-is-an-incredi {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  color: #85939e;
+}
+
+.read-more {
+  font-family: AlrightSansLT;
+  font-size: 0.8vw;
+  font-weight: 500;
+  color: #60cbe2;
+}
+
+.Line-2 {
+    border-bottom: solid 0.2vh #eceef0;
+}
+
+.Your-favourite-blog {
+  font-family: TiemposText;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #0a273c;
+}
+
+.Our-readers-have-fou {
+  font-family: AlrightSansLT;
+  font-size: 1.4vw;
+  text-align: center;
+  color: #0a273c;
+}
+
+.rs-blog-illustration-traction {
+    width: 100%;
+}
+
+.rs-blog-automationmadeeasy_1024 {
+    width: 100%;
+}
+.TRACTION-2 {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  font-weight: bold;
+  color: #60cbe2;
+  margin-left: 5%
+}
+
+.Takeaway-from-Tracti {
+  font-family: TiemposHeadline;
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 1.38;
+  color: #0a273c;
+  margin-left: 5%;
+}
+
+.We-learned-so-much-f {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  margin: 0 5% 0 5%
+}
+
+.We-now-do-CRO-let-u {
+  font-family: AlrightSansLT;
+    font-size: 1.2vw;
+    line-height: 1.36;
+    color: #ffffff;
+}
+
+.We-now-do-CRO-let-u .text-style-2 {
+    font-family: AlrightSansLT-Medium;
+    font-weight: 500;
+}
+
+.Made-in-Canada {
+  font-family: AlrightSansLT;
+    font-size: 1.2vw;
+    color: #85939e;
+}
+
+ .Made-in-Canada .text-style-3 {
+    font-family: AlrightSansLT-Medium;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.canada {
+  position: relative;
+  width: 2%;
+  margin-top: 1%;
+}
+
+.img-canada{
+  width: 100%
+}
+
+/* Social Media*/
+
+.linkedin-icon {
+  /*width: 5%;*/
+  margin-left: 40%;
+  position: relative;
+}
+
+.twitter-icon {
+  /*width: 5%;*/
+  margin-left: 1.5%;
+  position: relative;
+}
+
+.facebook-icon {
+  /*width: 5%;*/
+  margin-left: 1.5%;
+  position: relative;
+}
+
+.instagram-icon {
+  /*width: 5%;*/
+  margin-left: 1.5%;
+  position: relative;
+}
+
+.Unsubscribe {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0a273c;
+  text-decoration: none
+}
+
+
+
+.View-in-browser {
+  font-family: AlrightSansLT;
+  font-size: 1vw;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #0a273c;
+  text-decoration: none
+
+}
+
+.Red-Stam {
+  width: 100%;
+  opacity: 0.5;
+  font-family: AlrightSansLT;
+  font-size: 1.2vw;
+  text-align: center;
+  color: #85939e;
+  position: relative;
+  margin-top: 12%;
+}
+
+.Icon {
+  width: 3%;
+  position: absolute;
+  margin-left: 50%;
+  margin-bottom: 5%;
+}
